@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexclass {
+            
+            background-color: aquamarine;
+            display: flex;
+
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            flex-direction: row;
+        }
+
+        .rowbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .columnbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="rowbox"></div>
+    </div>
+
+    <div class="rowbox">
+
+        <div class="flexclass">1</div>
+        <div class="flexclass">1</div>
+        <div class="flexclass">1</div>
+
+
+    </div>
+    <div class="columnbox">
+    <div class="flexbox"></div>
+    </div>
+
+</body>
+
+</html>

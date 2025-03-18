@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+            border: 2px solid black;
+            
+        }
+
+        .box3 {
+            display: flex;
+            justify-content: center;
+            border: 2px solid white;
+            flex-direction: row;
+            
+
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+     <div class="box1"> <!--main box -->
+
+        <div class="box3" >1 </div> <!-- first box -->
+
+
+        <div class="box3"><!-- second.1 box -->
+            <div style="flex: 2; border: 2px solid  white;">
+                <div style="flex: 2; border: 2px solid white; background-color: pink;">a</div>
+                <div style=" background-color: green; border: 2px solid white;">b</div>
+            </div>
+
+
+            <div style="flex: 2;"><!-- second.2 box -->
+                <div style="flex: 3; background-color:orange; border: 2px solid white;">c</div>
+                <div style=" background-color: darkgray; border: 2px solid white;">d</div>
+            </div>
+        </div>
+
+        <div class="box3"><!-- third box -->
+            <div style="flex: 3; border: 2px solid white;background-color:greenyellow; ">3.1</div>
+            <div style="flex: 1; border: 2px solid white; background-color: pink;">3.2</div>
+        </div>
+
+        <div class="box3" style="background-color: orange;">4</div><!-- fourth box -->
+
+    </div>
+
+</body>
+
+</html>
